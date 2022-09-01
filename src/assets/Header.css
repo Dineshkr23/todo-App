@@ -1,0 +1,47 @@
+/* Header stylings */
+.header,.input_div{
+    background: blueviolet;
+    color: #ffffff;
+    width: 30%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+.header_btn{
+    font-size: xxx-large;
+    color: #ffffff;
+    background: transparent;
+    width: 10%;
+}
+.header_text{
+    text-align: center;
+    width: 90%;
+}
+.header_btn:hover{
+    cursor: pointer;
+}
+.input_div{
+    margin-top: 0.5rem;
+}
+.input_div>input[type='text']{
+    border: none;
+    outline: none;
+    width: 80%;
+    padding: 0.7rem;
+    font-size: large;
+    background-color: rgb(242, 236, 247);
+    color: blueviolet;
+}
+.input_div>button{
+    width: 20%;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    font-size: large;
+    color: blueviolet;
+}
+.input_div>button:hover{
+    cursor: pointer;
+    color: blue;
+}
